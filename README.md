@@ -1,22 +1,31 @@
-# Storage Management System
-This is a simple Store/Inventory Management System built using MySQL and Python. 
-The project demonstrates CRUD operations (Create, Read, Update, Delete) and is aimed at helping beginners understand database interactions using Python.
+# 🛒 Store Management System (GUI Version)
 
-🛠️ Tech Stack
-Frontend / CLI: Python (Standard Console)
+A cross-platform Store/Inventory Management System built with **Python (Tkinter)** and **MySQL**. Designed to demonstrate core CRUD operations, inventory handling, and sales management with a graphical user interface.
 
-Backend: MySQL
+---
 
-Tools: MySQL Connector for Python
+## ✅ Features
 
+- Add, update, and view **Products**
+- Manage **Customers** and **Sellers**
+- Handle **Inventory** (stock levels, restocking)
+- Process and track **Sales**
+- View filtered sales reports by date
 
-💡 Features
-Add new products to the inventory
+---
 
-View product details
+## 🧰 Tech Stack
 
-Update existing product records
+- **Frontend / GUI**: Python (Tkinter)
+- **Backend**: MySQL
+- **Libraries**: `mysql-connector-python`, `tkinter`
 
-Delete products from inventory
+---
 
-Handle basic stock deduction on simulated purchase
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nikhilbandodkar/Storage-Management-System.git
+cd Storage-Management-System
