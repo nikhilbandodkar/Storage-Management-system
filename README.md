@@ -30,3 +30,29 @@ Designed to demonstrate core **CRUD operations**, **inventory management**, and 
 ```bash
 git clone https://github.com/nikhilbandodkar/Storage-Management-System.git
 cd Storage-Management-System
+```
+### 2. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Setup MySQL Database
+```sql
+CREATE DATABASE store_management;
+```
+
+Edit `stormanag_2.py`:
+```python
+connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="your_password",  # Replace with your MySQL password
+    database="store_management",
+    port=3306
+)
+```
+
+### 4. Run the App
+```bash
+python stormanag_2.py
+```
